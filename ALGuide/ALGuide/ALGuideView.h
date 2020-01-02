@@ -14,8 +14,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 添加镂空区域
 - (void)addThroughFrame:(CGRect)frame;
+- (void)addThroughCircle:(CGPoint)center radius:(CGFloat)radius;
 /// 移除所有镂空区域
-- (void)removeAllThroughFrame;
+- (void)removeAllThrough;
 
 @end
 

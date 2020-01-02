@@ -16,6 +16,7 @@
 		8CA5843E23BDC05B00E1BB4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA5843D23BDC05B00E1BB4E /* main.m */; };
 		8CA5844823BDC05B00E1BB4E /* ALGuideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA5844723BDC05B00E1BB4E /* ALGuideTests.m */; };
 		8CA5845523BDC18800E1BB4E /* ALGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA5845423BDC18800E1BB4E /* ALGuideView.m */; };
+		8CA5845923BDD51D00E1BB4E /* ALThroughCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA5845823BDD51D00E1BB4E /* ALThroughCircle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		8CA5844923BDC05B00E1BB4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CA5845323BDC18800E1BB4E /* ALGuideView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALGuideView.h; sourceTree = "<group>"; };
 		8CA5845423BDC18800E1BB4E /* ALGuideView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALGuideView.m; sourceTree = "<group>"; };
+		8CA5845723BDD51D00E1BB4E /* ALThroughCircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALThroughCircle.h; sourceTree = "<group>"; };
+		8CA5845823BDD51D00E1BB4E /* ALThroughCircle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALThroughCircle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +118,20 @@
 		8CA5845223BDC16600E1BB4E /* ALGuide */ = {
 			isa = PBXGroup;
 			children = (
+				8CA5845623BDD50400E1BB4E /* Model */,
 				8CA5845323BDC18800E1BB4E /* ALGuideView.h */,
 				8CA5845423BDC18800E1BB4E /* ALGuideView.m */,
 			);
 			path = ALGuide;
+			sourceTree = "<group>";
+		};
+		8CA5845623BDD50400E1BB4E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8CA5845723BDD51D00E1BB4E /* ALThroughCircle.h */,
+				8CA5845823BDD51D00E1BB4E /* ALThroughCircle.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +236,7 @@
 			files = (
 				8CA5843323BDC05900E1BB4E /* ViewController.m in Sources */,
 				8CA5842D23BDC05900E1BB4E /* AppDelegate.m in Sources */,
+				8CA5845923BDD51D00E1BB4E /* ALThroughCircle.m in Sources */,
 				8CA5843E23BDC05B00E1BB4E /* main.m in Sources */,
 				8CA5845523BDC18800E1BB4E /* ALGuideView.m in Sources */,
 				8CA5843023BDC05900E1BB4E /* SceneDelegate.m in Sources */,

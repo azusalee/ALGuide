@@ -24,6 +24,8 @@
 
 - (IBAction)buttonDidTap:(id)sender {
     NSLog(@"button 点击");
+    [self.guideView addThroughCircle:CGPointMake(190, 60) radius:30];
+    [self.guideView addThroughFrame:CGRectMake(110, 110, 50, 50)];
     self.guideView.frame = CGRectMake(50, 50, 300, 300);
 }
 
